@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TaiXiu Analyzer</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎲 TaiXiu Analyzer</h1>
+
+<div class="card">
+
+<h2>Nhập kết quả</h2>
+
+<div class="dice-input">
+
+<input id="d1" type="number" min="1" max="6" placeholder="1">
+
+<input id="d2" type="number" min="1" max="6" placeholder="2">
+
+<input id="d3" type="number" min="1" max="6" placeholder="3">
+
+</div>
+
+<button onclick="addResult()">Thêm kết quả</button>
+
+</div>
+
+<div class="card">
+
+<h2>Thống kê</h2>
+
+<p>Tổng số ván: <span id="total">0</span></p>
+
+<p>Tài: <span id="tai">0</span></p>
+
+<p>Xỉu: <span id="xiu">0</span></p>
+
+</div>
+
+<div class="card">
+
+<h2>Lịch sử</h2>
+
+<ul id="history"></ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
